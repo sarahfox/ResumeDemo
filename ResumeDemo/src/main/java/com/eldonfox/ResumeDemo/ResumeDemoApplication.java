@@ -1,6 +1,7 @@
 package com.eldonfox.ResumeDemo;
 
 import io.dropwizard.Application;
+import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
@@ -18,6 +19,7 @@ public class ResumeDemoApplication extends Application<ResumeDemoConfiguration> 
     @Override
     public void initialize(final Bootstrap<ResumeDemoConfiguration> bootstrap) {
         // TODO: application initialization
+        bootstrap.addBundle(new AssetsBundle("/web/assets/", "/", "index.html"));
     }
 
     @Override
