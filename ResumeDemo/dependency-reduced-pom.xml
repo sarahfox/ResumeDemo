@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.eldonfox</groupId>
+  <groupId>com.w3foxes.sarah</groupId>
   <artifactId>ResumeDemo</artifactId>
   <name>ResumeDemo</name>
   <version>0.0.1-SNAPSHOT</version>
@@ -175,7 +175,7 @@
   </dependencyManagement>
   <properties>
     <dropwizard.version>2.1.0-beta.4</dropwizard.version>
-    <mainClass>com.eldonfox.ResumeDemo.ResumeDemoApplication</mainClass>
+    <mainClass>com.w3foxes.sarah.ResumeDemo.ResumeDemoApplication</mainClass>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>

@@ -4,4 +4,4 @@ server:
 logging:
   level: INFO
   loggers:
-    com.eldonfox: DEBUG
+    com.w3foxes.sarah: DEBUG

@@ -1,4 +1,4 @@
-package com.eldonfox.ResumeDemo;
+package com.w3foxes.sarah.ResumeDemo;
 
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,4 +1,4 @@
-package com.eldonfox.ResumeDemo.resources;
+package com.w3foxes.sarah.ResumeDemo.resources;
 
 import java.io.InputStream;
 import java.util.Optional;
@@ -10,8 +10,8 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
 import com.codahale.metrics.annotation.Timed;
-import com.eldonfox.ResumeDemo.api.Resume;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.w3foxes.sarah.ResumeDemo.api.Resume;
 
 @Path("/resume")
 @Produces(MediaType.APPLICATION_JSON)

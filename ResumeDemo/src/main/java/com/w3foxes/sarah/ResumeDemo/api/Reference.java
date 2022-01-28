@@ -1,4 +1,4 @@
-package com.eldonfox.ResumeDemo.api;
+package com.w3foxes.sarah.ResumeDemo.api;
 
 public class Reference {
 	String who;

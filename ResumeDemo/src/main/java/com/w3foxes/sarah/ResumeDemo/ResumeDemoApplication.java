@@ -1,6 +1,6 @@
-package com.eldonfox.ResumeDemo;
+package com.w3foxes.sarah.ResumeDemo;
 
-import com.eldonfox.ResumeDemo.resources.ResumeResource;
+import com.w3foxes.sarah.ResumeDemo.resources.ResumeResource;
 
 import io.dropwizard.Application;
 import io.dropwizard.assets.AssetsBundle;
