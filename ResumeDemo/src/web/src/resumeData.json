@@ -1,0 +1,304 @@
+{
+	"contactInfo" : {
+		"name" : "Sarah Fox",
+		"address" : " 4015 Brae Burn Dr., Eugene, OR 97405",
+		"phones" : [
+			{ "type" : "HOME", "number" : "541-343-1153"},
+			{ "type" : "MOBILE", "number" : "541-337-2452"}
+		],
+		"email" : "alienbaby42@gmail.com"
+	},
+	"education" : [
+		{"schoolName": "University of Oregon",
+		 "address" : "5257 University of Oregon, Eugene, OR 97403-5257",
+		 "degrees" : ["Bachelor of Science, 2000"],
+		 "majors" : [
+		 	"Computer and Information Science",
+		 	"Mathematics"
+		 ],
+		 "awards" : [
+		 	"Phi Beta Kappa",
+		 	"Magna Cum Laude"
+		 ]
+		}
+	],
+	"skills" :[
+		{ "category" : "Java",
+		  "name": "Java",
+		  "proficiency" : "HIGH"},
+		{ "category" : "Java",
+		  "name": "Dropwizard",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Java",
+		  "name": "JUnit",
+		  "proficiency" : "HIGH"},
+		{ "category" : "Java",
+		  "name": "Seam",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Java",
+		  "name": "Struts",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Java",
+		  "name": "JSP",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Java",
+		  "name": "JSTL",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Java",
+		  "name": "Selenium",
+		  "proficiency" : "MEDIUM"},
+
+		{ "category" : "Build Systems",
+		  "name": "Gradle",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Build Systems",
+		  "name": "Ant",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Build Systems",
+		  "name": "Maven",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Build Systems",
+		  "name": "Hudson/Jenkins",
+		  "proficiency" : "MEDIUM"},
+
+		{ "category" : "Database",
+		  "name": "Hibernate",
+		  "proficiency" : "HIGH"},
+		{ "category" : "Database",
+		  "name": "Liquibase",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Database",
+		  "name": "Postgres",
+		  "proficiency" : "HIGH"},
+		{ "category" : "Database",
+		  "name": "MSSQL",
+		  "proficiency" : "OBSOLETE"},
+		{ "category" : "Database",
+		  "name": "MySQL",
+		  "proficiency" : "OBSOLETE"},
+
+		{ "category" : "Javascript",
+		  "name": "Javascript",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Javascript",
+		  "name": "React",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Javascript",
+		  "name": "Backbone",
+		  "proficiency" : "LOW"},
+		{ "category" : "Javascript",
+		  "name": "Handlebars",
+		  "proficiency" : "LOW"},
+		{ "category" : "Javascript",
+		  "name": "Underscore",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Javascript",
+		  "name": "Jquery",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Javascript",
+		  "name": "Jasmine",
+		  "proficiency" : "MEDIUM"},
+
+		{ "category" : "OS",
+		  "name": "Docker",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "OS",
+		  "name": "Vagrant",
+		  "proficiency" : "LOW"},
+		{ "category" : "OS",
+		  "name": "Mac",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "OS",
+		  "name": "Windows",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "OS",
+		  "name": "Linux",
+		  "proficiency" : "MEDIUM"},
+
+		{ "category" : "Other Languages",
+		  "name": "Ruby",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Other Languages",
+		  "name": "Classic ASP",
+		  "proficiency" : "LOW"},
+		{ "category" : "Other Languages",
+		  "name": "ASP.NET",
+		  "proficiency" : "LOW"},
+		{ "category" : "Other Languages",
+		  "name": "VB.NET",
+		  "proficiency" : "LOW"},
+		{ "category" : "Other Languages",
+		  "name": "C#",
+		  "proficiency" : "LOW"},
+		{ "category" : "Other Languages",
+		  "name": "C++",
+		  "proficiency" : "OBSOLETE"},
+		{ "category" : "Other Languages",
+		  "name": "Python",
+		  "proficiency" : "OBSOLETE"},
+
+		{ "category" : "Web",
+		  "name": "HTML",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Web",
+		  "name": "XML",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Web",
+		  "name": "XSL",
+		  "proficiency" : "LOW"},
+		{ "category" : "Web",
+		  "name": "CSS",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Web",
+		  "name": "LESS",
+		  "proficiency" : "MEDIUM"},
+
+		{ "category" : "Version Control",
+		  "name": "Git",
+		  "proficiency" : "HIGH"},
+		{ "category" : "Version Control",
+		  "name": "SVN",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Version Control",
+		  "name": "CVS",
+		  "proficiency" : "LOW"},
+		  
+		{ "category" : "Bug Reporting",
+		  "name": "Jira",
+		  "proficiency" : "HIGH"},
+		{ "category" : "Bug Reporting",
+		  "name": "FogBugs",
+		  "proficiency" : "LOW"},
+		  
+		{ "category" : "IDE",
+		  "name": "Eclipse",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "IDE",
+		  "name": "Visual Studio",
+		  "proficiency" : "LOW"},
+		  
+		{ "category" : "Methodologies",
+		  "name": "Agile",
+		  "proficiency" : "MEDIUM"},
+		{ "category" : "Methodologies",
+		  "name": "SCRUM",
+		  "proficiency" : "MEDIUM"}
+	],
+	"jobs" : [
+		{
+			"dates": "November 2020 - present",
+			"employer" : "Personal Projects",
+			"titles" : [],
+			"tasks": [
+				"Started development on a web app for pilots.  Set up the initial framework with Dropwizard and React.  Learned to use the Maven build system for the project.  Wrote specs, examined business case, and decided to shelve project.",
+				"Assisted with spouse’s art business.  Assembled, sanded, and painted picture frames and display panels.  Worked the booth at art shows."
+			]
+		},
+		{
+			"dates": "July 2011 - October 2020",
+			"employer" : "Palo Alto Software",
+			"titles" : ["Software Developer"],
+			"tasks": [
+				"Maintained the LivePlan application, a large business planning webapp.  Implemented new features, fixed bugs, wrote and maintained unit tests.  Wrote extensive documentation.  Learned new technologies as needed.  Did code reviews.",
+				"Helped transition app from a Struts/SEAM/JSP architecture to a Dropwizard/React architecture.",
+				"Researched how to write database updates for zero-downtime deployments.  Wrote documentation for the rest of the department to use.",
+				"Joined the LiveWell committee which helped plan events for employee health/wellness/morale. Mentored new employees."
+			]
+		},
+		{
+			"dates": "June 2003 - June 2011",
+			"employer" : "Avant Assessment",
+			"titles" : ["Programmer (2003 - 2008)", "Senior Software Developer (2008 - 2010)", "Software Engineer (2010 - 2011)"],
+			"tasks": [
+				"Won Ed Knapp Award in December 2009. &quot;Awarded to Sarah Fox for her consistent and laser-like determination to accomplish any task given to her with dispatch and the highest quality of workmanship.&quot;",
+				"Created and maintained a large Java/Struts based item development and test-delivery system, as well as maintaining several classic ASP applications.",
+				"Created a new ASP.NET webapp to save the sales department hundreds of hours of data-entry work.",
+				"Mentored junior developers.",
+				"Reviewed code of other developers.",
+				"Wrote specifications, technical documentation, and user documentation.",
+				"Learned new technologies as needed.  Took classes in: C#, VB.NET, ASP.NET, and Writing User Requirement Docs.  Learned Spring and Hibernate on the job."
+			]
+		},
+		{
+			"dates": "August 2004 - December 2004, April 2005, November 2005",
+			"employer" : "University of Oregon, Center for Applied Second Language Studies (CASLS)",
+			"titles" : ["Software Developer"],
+			"tasks": [
+				"Designed and wrote a Java/Struts based item development and test-delivery system, which was then licensed to Avant Assessment.",
+				"Returned in April and November to add additional features to the system."
+			]
+		},
+		{
+			"dates": "October 2003 - June 2005",
+			"employer" : "Business English Language Learning Solutions (BELLS)",
+			"titles" : ["Software Developer", "Voice-over Artist"],
+			"tasks": [
+				"Worked on new features for a Java/Struts based language learning application.",
+				"Recorded and edited English voice-overs for daily lessons."
+			]
+		},
+		{
+			"dates": "2000 - 2003",
+			"employer" : "Counterclaim",
+			"titles" : ["Programmer"],
+			"tasks": [
+				"Worked on a Java/Struts based webapp for electronic filing of court documents and a Java based case management webapp."
+			]
+		}
+	],
+	"recommendations": [
+		{
+		"by": "Laurence Gellert",
+		"title": "Chief Software Architect, Avant Assessment",
+		"text": "When we first interviewed Sarah, we realized in under a minute - she was born to work with software.  Of course we immediately hired her and it worked out great!  Sarah has amazing talents when it comes to the language of computers.  She is truly one of Joel of Software's 10x coders in terms of productivity.  In the seven years of working together I saw Sarah pick up many new concepts and meld them into her approach.  These include key contributions in refining our products to run virtually bug free.  Analytical skills - outstanding.  Code readability - top notch, very gifted in this area.  Believes in writing code comments!  Good memory.  Practical judgment when considering technology tradeoffs."
+		},
+		{
+			"by" : "Junko Hirayama",
+			"title" : "Programmer, Avant Assessment, LLC",
+			"text": "I had the pleasure of working with Sarah at Avant Assessment for nearly 4 years.  She is a highly skilled and versatile programmer.  She has shown excellence in her work through detail and always be a responsible and dedicated worker.  She is a great team player to work with and makes sure that her work in completed on time.  We depended on her knowledge about most of our products.  Also, she is a great team mate to share new technology and to influence each other.  I would highly recommend Sarah Fox to anyone looking for a loyal, hard working, highly skilled IT team member."
+		}
+	],
+	"references": [
+		{
+			"who": "Carol Buie",
+			"title": "Business Analyst, Avant Assessment",
+			"email": "carol.buie@gmail.com",
+			"phone": {"type": "MOBILE", "number": "541-221-9979"},
+			"status": "ARCHIVE"
+		},
+		{
+			"who": "Melissa Pohlman",
+			"title": "QA Engineer, Avant Assessment",
+			"email": "melissa_pohlman@yahoo.com",
+			"status": "ARCHIVE"
+		},
+		{
+			"who": "Laurence Gellert",
+			"title": "Educational Software Architect, University of Oregon, CASLS",
+			"email": "gellert@uoregon.edu",
+			"phone": {"type": "HOME", "number": "503-442-8705"},
+			"status": "ARCHIVE"
+		},
+		{
+			"who": "Adam Becker",
+			"title": "Manager at Palo Alto Software",
+			"email": "adamcbecker@gmail.com",
+			"phone": {"type": "MOBILE", "number": "503-810-0127"},
+			"status": "CURRENT"
+		},
+		{
+			"who": "Evan Coonrod",
+			"title": "Coworker at Palo Alto Software",
+			"email": "evan@coonrod.org",
+			"phone": {"type": "MOBILE", "number": "541-953-1123"},
+			"status": "CURRENT"
+		},
+		{
+			"who": "Xiangkui Yao",
+			"title": "Coworker at Palo Alto Software",
+			"email": "x.yao.76@gmail.com",
+			"phone": {"type": "MOBILE", "number": "541-683-3757"},
+			"status": "CURRENT"
+		}
+	]
+}

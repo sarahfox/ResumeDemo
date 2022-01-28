@@ -1,0 +1,14 @@
+div.contactInfo {
+	width: 100%;
+	background-color:#dddddd;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+div.name {
+	font-weight: bold;
+}
+
+div.email, div.phones {
+	text-align: right;
+}

@@ -1,5 +1,7 @@
 package com.eldonfox.ResumeDemo;
 
+import com.eldonfox.ResumeDemo.resources.ResumeResource;
+
 import io.dropwizard.Application;
 import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.setup.Bootstrap;
@@ -25,7 +27,8 @@ public class ResumeDemoApplication extends Application<ResumeDemoConfiguration> 
     @Override
     public void run(final ResumeDemoConfiguration configuration,
                     final Environment environment) {
-        // TODO: implement application
+    	final ResumeResource resumeResource = new ResumeResource();
+	    environment.jersey().register(resumeResource);
     }
 
 }
