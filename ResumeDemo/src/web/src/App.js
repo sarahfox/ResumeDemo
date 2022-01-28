@@ -9,18 +9,14 @@ import Skills from './Skills.js';
 import Jobs from './Jobs.js';
 import { Spin } from 'antd';
 
-let resume = require('./resumeData.json');
-
 class App extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			resume: resume,
-			DataIsLoaded: true
+			DataIsLoaded: false
 		}
 	}
 
-/* Uncomment once the backend is working
 	componentDidMount() {
 		fetch(
 			"http://localhost:8080/api/resume")
@@ -32,7 +28,7 @@ class App extends React.Component {
                 });
             })
 	}
-*/
+
 
 	render() {
 		// Show a loading state

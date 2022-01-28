@@ -4,6 +4,8 @@ public class Phone {
 	PhoneType type;
 	String number;
 	
+	public Phone() {
+	}
 	public Phone(PhoneType type, String number) {
 		this.type = type;
 		this.number = number;
