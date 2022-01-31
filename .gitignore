@@ -2,6 +2,9 @@
 .project
 .settings
 
+# Don't check in node_modules
+node_modules
+
 # Compiled class file
 *.class
 target
